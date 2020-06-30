@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html>
     <style> 
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        .navleft {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+        }
+        .navright {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+        .signinbutton {
+            background-color: slateblue;
+            color: white;
+            border-color: none;
+            border-radius: 3px;
+            height: 30px;
+            width: 75px;
+        }
         .rounded-light-grey-border {
             border-radius: 20px;
             border-color: lightgrey;
@@ -8,6 +41,8 @@
             border-width: 1px;
         }
         .maincontent {
+            position: relative;
+            top: 150px;
             max-width: 600px;
             margin: 0 auto;
         }
@@ -52,15 +87,22 @@
     </head>  
     <body>
         <header><!--header with nav bar-->
-            <!--nav elements, links, aligned properly-->
-            <ul class="topnavlinks">
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>Google Apps icon with link to https://www.google.com/intl/en/about/products?tab=rh</li>
-                <li>Sign In<!--This is a blue button--></li>
-            </ul>
+            <!--nav elements-->
+            <nav>
+                <div class="navleft">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#store">Store</a></li>
+                    </ul>
+                </div>
+                <div class="navright"><ul>    
+                    <li><a href="#gmail">Gmail</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="https://www.google.com/intl/en/about/products?tab=rh">Google Apps icon</a></li>
+                    <li><a href="#signin"><button class="signinbutton">Sign In</button></a></li>
+                </ul></div> 
+            </nav>
+                  
         </header>
         <main>
             <div class="maincontent">
