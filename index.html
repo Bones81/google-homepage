@@ -46,7 +46,6 @@
             max-width: 600px;
             margin: 0 auto;
         }
-
         img {
             display: block;
             max-width: 272px;
@@ -81,6 +80,22 @@
         form {
             text-align: center;
         }
+        .fbar {
+            display: flex;
+            position: fixed;
+            bottom: 0px;
+        }
+        footer {
+            background-color: lightgrey;
+        }
+        .footerleft {
+            position: relative;
+            left: 25px;
+        }
+        .footerright {
+            position: relative;
+            right: 25px;
+        }
     </style>
     <head>
         <title>Google homepage rebuild--1st HTML/CSS project</title>
@@ -102,7 +117,6 @@
                     <li><a href="#signin"><button class="signinbutton">Sign In</button></a></li>
                 </ul></div> 
             </nav>
-                  
         </header>
         <main>
             <div class="maincontent">
@@ -114,6 +128,23 @@
                 </form>
             </div>
         </main>
-        <footer><!--Footer--></footer>
+        <footer>
+            <div class="fbar">
+                <div class="footerleft">
+                    <ul>
+                        <li>Advertising</li>
+                        <li>Business</li>
+                        <li>How Search Works</li>
+                    </ul>
+                </div>
+                <div class="footerright">
+                    <ul>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li>Settings</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>  
 </html>
