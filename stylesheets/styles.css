@@ -1,28 +1,47 @@
+/*
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 980px;
+    position: absolute;
+    min-width: 980px;
 }
 .navleft {
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    position: fixed;
+    top: 20px;
+    left: 15px;
 }
 .navright {
-    position: relative;
-    top: 25px;
-    right: 25px;
+    position: fixed;
+    float: right;
+    top: 20px;
+    right: 15px;
 }
+*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+}/*
 li {
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    margin: 0;
+    padding-left: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87); 
+}
+#google-apps{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+#google-apps-btn {
+    height: 30px;
+    width: 30px;
+    opacity: 55%;
 }
 .signinbutton {
     background-color: slateblue;
@@ -48,7 +67,7 @@ img {
     display: block;
     max-width: 272px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
 }
 input {
     display: block;
@@ -78,19 +97,18 @@ input {
 form {
     text-align: center;
 }
-.fbar {
-    display: flex;
+footer {
+    background-color: rgb(242, 242, 242);
+    width: 980px;
     position: fixed;
     bottom: 0px;
 }
-footer {
-    background-color: lightgrey;
-}
 .footerleft {
-    position: relative;
+    position: absolute;
     left: 25px;
 }
 .footerright {
-    position: relative;
-    right: 25px;
+    position: absolute;
+    left: 600px;
 }
+*/
