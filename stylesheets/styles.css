@@ -1,55 +1,56 @@
-/*
 nav {
-    position: absolute;
+    position: relative;
     min-width: 980px;
+    width: 100%;
 }
 .navleft {
-    position: fixed;
-    top: 20px;
-    left: 15px;
+    float: left;
 }
 .navright {
-    position: fixed;
     float: right;
-    top: 20px;
-    right: 15px;
 }
-*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}/*
+    /*overflow: hidden;*/
+}
 li {
     display: inline;
+}
+.navleft, .navright {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    margin: 0;
+    margin: 25px 
+}
+.navleft li {
+    padding-right: 15px; 
+}
+.navright li {
     padding-left: 15px;
 }
 a {
     text-decoration: none;
     color: rgba(0,0,0,0.87); 
 }
-#google-apps{
-    border: none;
-    background-color: white;
-    cursor: pointer;
-    height: 30px;
-    width: 30px;
-}
-#google-apps-btn {
-    height: 30px;
-    width: 30px;
+#google-apps-link {
+    height: 25px;
+    width: 25px;
     opacity: 55%;
+    position: relative;
+    top: 8px;
 }
-.signinbutton {
-    background-color: slateblue;
+#sign-in-button {
+    background-color: #4285f4;
     color: white;
-    border-color: none;
-    border-radius: 3px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
     height: 30px;
     width: 75px;
+    line-height: 28px;
+    padding: 0 12px;
 }
 .rounded-light-grey-border {
     border-radius: 20px;
@@ -58,21 +59,20 @@ a {
     border-width: 1px;
 }
 .maincontent {
-    position: relative;
-    top: 150px;
-    max-width: 600px;
+    position: absolute;
+    top: 130px;
+    min-width: 980px;
     margin: 0 auto;
 }
-img {
+#google-logo {
     display: block;
-    max-width: 272px;
+    width: 272px;
     margin: 0 auto;
     padding: 25px;
 }
 input {
     display: block;
-    width: 584px;
-    max-width: 584px;
+    width: 387px;
     margin: 0 auto;
     line-height: 34px;
     height: 34px !important;
@@ -99,16 +99,21 @@ form {
 }
 footer {
     background-color: rgb(242, 242, 242);
-    width: 980px;
+    min-width: 980px;
+    width: 100%;
     position: fixed;
     bottom: 0px;
+    /*height: 40px;*/
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    line-height: 40px;
 }
-.footerleft {
-    position: absolute;
-    left: 25px;
+.footer-left li {
+    float: left;
+    padding-left: 25px;
 }
-.footerright {
-    position: absolute;
-    left: 600px;
+.footer-right li {
+    float: right;
+    padding-right: 25px;
 }
-*/
