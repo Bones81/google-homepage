@@ -93,7 +93,7 @@ li {
     margin: 0 auto 16px;
 }
 .search-bar:focus-within, .search-bar:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 input, .magnifying-glass, .microphone {
     display: inline;
@@ -101,6 +101,7 @@ input, .magnifying-glass, .microphone {
 .magnifying-glass img {
     width: 18px;
     vertical-align: middle;
+    opacity: .75;
 }
 input {
     width: 387px;
