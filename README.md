@@ -18,3 +18,6 @@ Learned that divs need width specified in order to be centered with margin: 0 au
 
 Also developed an appreciation for the importance of the position property, though I have still not internalized the concepts represented by the different attributes completely. Honestly, the same can be said for the display property, as I learned the usefulness of flexbox and grid but do not feel ready to use them in any meaningful way, as they are also not yet internalized or fully understood.
 
+Could not figure out how to add favicon properly. As a result, the image is sitting in my Assets folder unused.
+
+Despite TOP's admonishments, I decided to be a bit of a perfectionist. I wouldn't always understand why my layout would suddenly be correct or close to correct. I wanted to understand. So after getting a roughly decent CSS file. I commented everything out and slowly reincorporated the declarations, tweaking as needed, but more often realizing I needed to make wholesale changes due to my not fully understanding layout concepts yet. I think that extra process enabled me to deliver cleaner code, both HTML and CSS. And the extra work and time definitely helped me internalize better some key concepts of HTML and CSS. 
