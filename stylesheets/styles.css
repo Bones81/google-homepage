@@ -24,7 +24,7 @@ a:hover {
 .navright {
     float: right;
     position: absolute;
-    margin-right: 22px;
+    margin-right: 10px;
     right: 10px;
 }
 ul {
@@ -39,13 +39,13 @@ li {
 .navleft li {
     padding-left: 15px; 
     position: relative;
-    top: 27px;
-    left: 8px;
+    top: 24px;
+    left: 10px;
 }
 .navright li {
     padding-right: 15px;
     position: relative;
-    top: 13px;
+    top: 10px;
     left: 8px;
 }
 #google-apps-link {
@@ -155,10 +155,11 @@ footer a {
 }
 .footer-right {
     float: right;
+    margin-right: 8px;
 }
 .footer-left li {
     padding-left: 25px;
 }
 .footer-right li {
-    padding-right: 25px;
+    padding-right: 23px;
 }
