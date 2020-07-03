@@ -8,6 +8,18 @@ nav {
 .navleft {
     float: left;
 }
+a {
+    color: rgba(0,0,0,0.87); 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #5f6368;
+}
+.navleft a {
+    color: black;
+    opacity: 75%;
+}
 .navright {
     float: right;
     position: relative;
@@ -33,20 +45,15 @@ li {
     top: 24px;
     left: 8px;
 }
-a {
-    color: rgba(0,0,0,0.87); 
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-    color: #5f6368;
-}
 #google-apps-link {
     height: 25px;
     width: 25px;
     opacity: 55%;
     position: relative;
     top: 8px;
+}
+#google-apps-link:hover {
+    opacity: 100%;
 }
 #sign-in-button {
     background-color: #4285f4;
